@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link href="rps.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg">
+        <h1 class="tittle">Rock-Paper-Scissors</h1>
+        <div class="game-container">
+            <div class="choice">
+                <img src="download-removebg-preview.png" class="imggg"alt="Rock" onclick="ROCK()">
+                <button class="button-64" role="button"><span class="text"onclick="ROCK()">ROCK</span></button>
+            </div>
+            <div class="choice">
+                <img src="papper-removebg-preview.png" alt="Paper" class="imggg" width="200px" onclick="PAPER()">
+                <button class="button-64" role="button"><span class="text" onclick="PAPER()">PAPER</span></button>
+            </div>
+            <div class="choice">
+                <img src="scissor-removebg-preview.png" width="287px" class="imggg" onclick="SCISSOR()">
+                <button class="button-64" role="button"><span class="text" onclick="SCISSOR()">SCISSORS</span></button>
+            </div>
+        </div>
+        <div class="rain-container">
+            <div class="raindrop"></div>
+        </div>
+        <div id="result"></div>
+        <div id="celebrate"></div> <!-- Add this line -->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
